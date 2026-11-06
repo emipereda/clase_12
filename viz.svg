@@ -166,7 +166,7 @@
                 <path
                     id="p_837.0126732525576"
                     d="M0,75.959A75.959,75.959,0,1,1,0,-75.959A75.959,75.959,0,1,1,0,75.959Z"
-                    fill="#c97c9e"
+                    fill="#d283a4"
                     stroke="none"
                 />
             </g>
@@ -174,7 +174,7 @@
                 <path
                     id="p_907.6582923435807"
                     d="M0,32.705A32.705,32.705,0,1,1,0,-32.705A32.705,32.705,0,1,1,0,32.705Z"
-                    fill="#c97c9e"
+                    fill="#d283a4"
                     stroke="none"
                 />
             </g>
@@ -182,7 +182,7 @@
                 <path
                     id="p_922.4220219662595"
                     d="M0,21.038A21.038,21.038,0,1,1,0,-21.038A21.038,21.038,0,1,1,0,21.038Z"
-                    fill="#c97c9e"
+                    fill="#d283a4"
                     stroke="none"
                 />
             </g>
@@ -269,73 +269,280 @@
         </g>
         <g id="labels">
             <g transform="translate(252.3017486534855,236.72470485741493)">
-                <text text-anchor="middle" dominant-baseline="text-before-edge" transform="translate(0,0)" />
+                <text text-anchor="middle" dominant-baseline="text-before-edge" transform="translate(0,-5.5)">
+                    <tspan
+                        x="0"
+                        y="0"
+                        dy="0"
+                        style="font-family: Arial, sans-serif; font-size: 10px; fill: black; font-weight: bold"
+                    >
+                        Reino Unido
+                    </tspan>
+                </text>
             </g>
             <g transform="translate(360.5044017733094,236.72470485741493)">
-                <text text-anchor="middle" dominant-baseline="text-before-edge" transform="translate(0,0)" />
+                <text text-anchor="middle" dominant-baseline="text-before-edge" transform="translate(0,-5.5)">
+                    <tspan
+                        x="0"
+                        y="0"
+                        dy="0"
+                        style="font-family: Arial, sans-serif; font-size: 10px; fill: black; font-weight: bold"
+                    >
+                        Alemania
+                    </tspan>
+                </text>
             </g>
             <g transform="translate(329.8827572634052,309.0215666124544)">
-                <text text-anchor="middle" dominant-baseline="text-before-edge" transform="translate(0,0)" />
+                <text text-anchor="middle" dominant-baseline="text-before-edge" transform="translate(0,-5.5)">
+                    <tspan
+                        x="0"
+                        y="0"
+                        dy="0"
+                        style="font-family: Arial, sans-serif; font-size: 10px; fill: black; font-weight: bold"
+                    >
+                        Suecia
+                    </tspan>
+                </text>
             </g>
             <g transform="translate(329.6148869952625,165.68844782624137)">
-                <text text-anchor="middle" dominant-baseline="text-before-edge" transform="translate(0,0)" />
+                <text text-anchor="middle" dominant-baseline="text-before-edge" transform="translate(0,-5.5)">
+                    <tspan
+                        x="0"
+                        y="0"
+                        dy="0"
+                        style="font-family: Arial, sans-serif; font-size: 10px; fill: black; font-weight: bold"
+                    >
+                        Francia
+                    </tspan>
+                </text>
             </g>
             <g transform="translate(268.46230953863665,141.63362446241064)">
-                <text text-anchor="middle" dominant-baseline="text-before-edge" transform="translate(0,0)" />
+                <text text-anchor="middle" dominant-baseline="text-before-edge" transform="translate(0,-5.5)">
+                    <tspan
+                        x="0"
+                        y="0"
+                        dy="0"
+                        style="font-family: Arial, sans-serif; font-size: 10px; fill: black; font-weight: bold"
+                    >
+                        Suiza
+                    </tspan>
+                </text>
             </g>
             <g transform="translate(268.6087803920124,329.6441275281713)">
-                <text text-anchor="middle" dominant-baseline="text-before-edge" transform="translate(0,0)" />
+                <text text-anchor="middle" dominant-baseline="text-before-edge" transform="translate(0,-5.5)">
+                    <tspan
+                        x="0"
+                        y="0"
+                        dy="0"
+                        style="font-family: Arial, sans-serif; font-size: 10px; fill: black; font-weight: bold"
+                    >
+                        Países Bajos
+                    </tspan>
+                </text>
             </g>
             <g transform="translate(389.68913529595034,178.9473746857355)">
-                <text text-anchor="middle" dominant-baseline="text-before-edge" transform="translate(0,0)" />
+                <text text-anchor="middle" dominant-baseline="text-before-edge" transform="translate(0,-5.5)">
+                    <tspan
+                        x="0"
+                        y="0"
+                        dy="0"
+                        style="font-family: Arial, sans-serif; font-size: 10px; fill: black; font-weight: bold"
+                    >
+                        Dinamarca
+                    </tspan>
+                </text>
             </g>
             <g transform="translate(390.20512071344774,293.8262352283364)">
-                <text text-anchor="middle" dominant-baseline="text-before-edge" transform="translate(0,0)" />
+                <text text-anchor="middle" dominant-baseline="text-before-edge" transform="translate(0,-5.5)">
+                    <tspan
+                        x="0"
+                        y="0"
+                        dy="0"
+                        style="font-family: Arial, sans-serif; font-size: 10px; fill: black; font-weight: bold"
+                    >
+                        Italia
+                    </tspan>
+                </text>
             </g>
             <g transform="translate(220.363158658129,321.2558276152886)">
-                <text text-anchor="middle" dominant-baseline="text-before-edge" transform="translate(0,0)" />
+                <text text-anchor="middle" dominant-baseline="text-before-edge" transform="translate(0,-5.5)">
+                    <tspan
+                        x="0"
+                        y="0"
+                        dy="0"
+                        style="font-family: Arial, sans-serif; font-size: 10px; fill: black; font-weight: bold"
+                    >
+                        Irlanda
+                    </tspan>
+                </text>
             </g>
             <g transform="translate(221.28280589562607,154.24880163262247)">
-                <text text-anchor="middle" dominant-baseline="text-before-edge" transform="translate(0,0)" />
+                <text text-anchor="middle" dominant-baseline="text-before-edge" transform="translate(0,-5.5)">
+                    <tspan
+                        x="0"
+                        y="0"
+                        dy="0"
+                        style="font-family: Arial, sans-serif; font-size: 10px; fill: black; font-weight: bold"
+                    >
+                        Bélgica
+                    </tspan>
+                </text>
             </g>
             <g transform="translate(521.3530920951827,239.70083572340255)">
-                <text text-anchor="middle" dominant-baseline="text-before-edge" transform="translate(0,0)" />
+                <text text-anchor="middle" dominant-baseline="text-before-edge" transform="translate(0,-5.5)">
+                    <tspan
+                        x="0"
+                        y="0"
+                        dy="0"
+                        style="font-family: Arial, sans-serif; font-size: 10px; fill: black; font-weight: bold"
+                    >
+                        Estados Unidos
+                    </tspan>
+                </text>
             </g>
             <g transform="translate(635.2521110360748,239.70083572340255)">
-                <text text-anchor="middle" dominant-baseline="text-before-edge" transform="translate(0,0)" />
+                <text text-anchor="middle" dominant-baseline="text-before-edge" transform="translate(0,-5.5)">
+                    <tspan
+                        x="0"
+                        y="0"
+                        dy="0"
+                        style="font-family: Arial, sans-serif; font-size: 10px; fill: black; font-weight: bold"
+                    >
+                        Canadá
+                    </tspan>
+                </text>
             </g>
             <g transform="translate(608.9126241405529,292.4711112515552)">
-                <text text-anchor="middle" dominant-baseline="text-before-edge" transform="translate(0,0)" />
+                <text text-anchor="middle" dominant-baseline="text-before-edge" transform="translate(0,-5.5)">
+                    <tspan
+                        x="0"
+                        y="0"
+                        dy="0"
+                        style="font-family: Arial, sans-serif; font-size: 10px; fill: black; font-weight: bold"
+                    >
+                        Argentina
+                    </tspan>
+                </text>
             </g>
             <g transform="translate(408.10179755176046,433.18680324877624)">
-                <text text-anchor="middle" dominant-baseline="text-before-edge" transform="translate(0,0)" />
+                <text text-anchor="middle" dominant-baseline="text-before-edge" transform="translate(0,-5.5)">
+                    <tspan
+                        x="0"
+                        y="0"
+                        dy="0"
+                        style="font-family: Arial, sans-serif; font-size: 10px; fill: black; font-weight: bold"
+                    >
+                        Japón
+                    </tspan>
+                </text>
             </g>
             <g transform="translate(487.2710454682449,433.18680324877624)">
-                <text text-anchor="middle" dominant-baseline="text-before-edge" transform="translate(0,0)" />
+                <text text-anchor="middle" dominant-baseline="text-before-edge" transform="translate(0,-5.5)">
+                    <tspan
+                        x="0"
+                        y="0"
+                        dy="0"
+                        style="font-family: Arial, sans-serif; font-size: 10px; fill: black; font-weight: bold"
+                    >
+                        China
+                    </tspan>
+                </text>
             </g>
             <g transform="translate(452.3089584605005,496.08467850504974)">
-                <text text-anchor="middle" dominant-baseline="text-before-edge" transform="translate(0,0)" />
+                <text text-anchor="middle" dominant-baseline="text-before-edge" transform="translate(0,-5.5)">
+                    <tspan
+                        x="0"
+                        y="0"
+                        dy="0"
+                        style="font-family: Arial, sans-serif; font-size: 10px; fill: black; font-weight: bold"
+                    >
+                        Corea del Sur
+                    </tspan>
+                </text>
             </g>
             <g transform="translate(452.13366768402443,373.64140940124634)">
-                <text text-anchor="middle" dominant-baseline="text-before-edge" transform="translate(0,0)" />
+                <text text-anchor="middle" dominant-baseline="text-before-edge" transform="translate(0,-5.5)">
+                    <tspan
+                        x="0"
+                        y="0"
+                        dy="0"
+                        style="font-family: Arial, sans-serif; font-size: 10px; fill: black; font-weight: bold"
+                    >
+                        Hong Kong
+                    </tspan>
+                </text>
             </g>
             <g transform="translate(399.3529723096222,370.91787850696755)">
-                <text text-anchor="middle" dominant-baseline="text-before-edge" transform="translate(0,0)" />
+                <text text-anchor="middle" dominant-baseline="text-before-edge" transform="translate(0,-5.5)">
+                    <tspan
+                        x="0"
+                        y="0"
+                        dy="0"
+                        style="font-family: Arial, sans-serif; font-size: 10px; fill: black; font-weight: bold"
+                    >
+                        Arabia Saudita
+                    </tspan>
+                </text>
             </g>
             <g transform="translate(397.7123494629776,494.14632135284177)">
-                <text text-anchor="middle" dominant-baseline="text-before-edge" transform="translate(0,0)" />
+                <text text-anchor="middle" dominant-baseline="text-before-edge" transform="translate(0,-5.5)">
+                    <tspan
+                        x="0"
+                        y="0"
+                        dy="0"
+                        style="font-family: Arial, sans-serif; font-size: 10px; fill: black; font-weight: bold"
+                    >
+                        Malasia
+                    </tspan>
+                </text>
             </g>
             <g transform="translate(503.362790521198,378.910501734334)">
-                <text text-anchor="middle" dominant-baseline="text-before-edge" transform="translate(0,0)" />
+                <text text-anchor="middle" dominant-baseline="text-before-edge" transform="translate(0,-5.5)">
+                    <tspan
+                        x="0"
+                        y="0"
+                        dy="0"
+                        style="font-family: Arial, sans-serif; font-size: 10px; fill: black; font-weight: bold"
+                    >
+                        Taiwán
+                    </tspan>
+                </text>
             </g>
             <g transform="translate(498.5525351616854,482.4208412567092)">
-                <text text-anchor="middle" dominant-baseline="text-before-edge" transform="translate(0,0)" />
+                <text text-anchor="middle" dominant-baseline="text-before-edge" transform="translate(0,-5.5)">
+                    <tspan
+                        x="0"
+                        y="0"
+                        dy="0"
+                        style="font-family: Arial, sans-serif; font-size: 10px; fill: black; font-weight: bold"
+                    >
+                        Singapur
+                    </tspan>
+                </text>
             </g>
             <g transform="translate(422.24563169768703,80.81362673208406)">
-                <text text-anchor="middle" dominant-baseline="text-before-edge" transform="translate(0,0)" />
+                <text text-anchor="middle" dominant-baseline="text-before-edge" transform="translate(0,-5.5)">
+                    <tspan
+                        x="0"
+                        y="0"
+                        dy="0"
+                        style="font-family: Arial, sans-serif; font-size: 10px; fill: black; font-weight: bold"
+                    >
+                        Australia
+                    </tspan>
+                </text>
             </g>
             <g transform="translate(492.8626084426942,80.81362673208406)">
-                <text text-anchor="middle" dominant-baseline="text-before-edge" transform="translate(0,0)" />
+                <text text-anchor="middle" dominant-baseline="text-before-edge" transform="translate(0,-5.5)">
+                    <tspan
+                        x="0"
+                        y="0"
+                        dy="0"
+                        style="font-family: Arial, sans-serif; font-size: 10px; fill: black; font-weight: bold"
+                    >
+                        Nueva Zelanda
+                    </tspan>
+                </text>
             </g>
         </g>
     </g>
