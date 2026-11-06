@@ -1,5 +1,5 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="880" height="580">
-    <rect width="880" height="580" x="0" y="0" fill="#fafafa" id="background" />
+    <rect width="880" height="450" x="0" y="0" fill="#fafafa" id="background" />
     <g transform="translate(20,20)" id="viz">
         <g id="nodes">
             <g transform="translate(421,271)">
