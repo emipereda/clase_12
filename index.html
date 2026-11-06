@@ -286,7 +286,16 @@
                 font-weight: 700;
                 color: var(--color-text-light);
             }
+svg.grafico text { font-family: var(--font-sans); font-size: 13px; fill: var(--color-text); }
+svg.grafico .grid circle { fill: none; stroke: #ddd; }
+svg.grafico .eje line { stroke: #ccc; }
+svg.grafico .escala text { font-size: 10px; fill: gray; }
+svg.grafico .leyenda-titulo { font-size: 12px; fill: gray; }
+svg.grafico .item { cursor: pointer; transition: opacity 0.3s; }
+svg.grafico .item text { font-size: 15px; }
 
+.nones { display: none; }
+.apagado { opacity: 0.3; }
         </style>
     </head>
 
@@ -456,13 +465,77 @@
                 institucional.
             </p>
 
-            <svg class="grafico" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 880 580" role="img" aria-label="Espacio reservado para el gráfico interactivo de comparación">
-                <rect width="880" height="580" fill="silver" />
-                <text x="10" y="40">[Reemplazar por un gráfico interactivo como el trabajado en las clases 10 y 11.]</text>
-                <text x="10" y="70">Debe comparar cinco dimensiones de la PUC, la UCh y la UDD. Nada más.</text>
-            </svg>
+            <svg class="grafico" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 880 580" role="img" aria-label="Gráfico radar que compara a la PUC, la UCh y la UDD en cinco indicadores cuantitativos del QS World University Rankings">
+    <g class="grid">
+        <circle cx="330" cy="300" r="40" />
+        <circle cx="330" cy="300" r="80" />
+        <circle cx="330" cy="300" r="120" />
+        <circle cx="330" cy="300" r="160" />
+        <circle cx="330" cy="300" r="200" />
+    </g>
+    <g class="eje">
+        <line x1="330" y1="300" x2="330.0" y2="100.0" />
+        <line x1="330" y1="300" x2="520.2" y2="238.2" />
+        <line x1="330" y1="300" x2="447.6" y2="461.8" />
+        <line x1="330" y1="300" x2="212.4" y2="461.8" />
+        <line x1="330" y1="300" x2="139.8" y2="238.2" />
+    </g>
+    <g class="escala">
+        <text x="334" y="272">20</text>
+        <text x="334" y="232">40</text>
+        <text x="334" y="192">60</text>
+        <text x="334" y="152">80</text>
+        <text x="334" y="112">100</text>
+    </g>
+    <g class="texto">
+        <text x="330.0" y="76.0" text-anchor="middle"><tspan x="330.0" dy="0">Relación docentes/estudiantes</tspan></text>
+        <text x="539.2" y="236.0" text-anchor="start"><tspan x="539.2" dy="0">Citas por docente</tspan></text>
+        <text x="459.3" y="492.0" text-anchor="start"><tspan x="459.3" dy="0">Docentes</tspan><tspan x="459.3" dy="16">internacionales</tspan></text>
+        <text x="200.7" y="492.0" text-anchor="end"><tspan x="200.7" dy="0">Estudiantes</tspan><tspan x="200.7" dy="16">internacionales</tspan></text>
+        <text x="120.8" y="228.0" text-anchor="end"><tspan x="120.8" dy="0">Red internacional</tspan><tspan x="120.8" dy="16">de investigación</tspan></text>
+    </g>
+    <g id="puc" class="serie">
+        <polygon points="330.0,223.4 354.7,292.0 375.7,362.9 321.7,311.5 178.4,250.7" fill="#5e4fa2" fill-opacity="0.25" stroke="#5e4fa2" stroke-width="2.5" />
+        <circle cx="330.0" cy="223.4" r="5" fill="#5e4fa2"><title>PUC · Relación docentes/estudiantes: 38,3</title></circle>
+        <circle cx="354.7" cy="292.0" r="5" fill="#5e4fa2"><title>PUC · Citas por docente: 13,0</title></circle>
+        <circle cx="375.7" cy="362.9" r="5" fill="#5e4fa2"><title>PUC · Docentes internacionales: 38,9</title></circle>
+        <circle cx="321.7" cy="311.5" r="5" fill="#5e4fa2"><title>PUC · Estudiantes internacionales: 7,1</title></circle>
+        <circle cx="178.4" cy="250.7" r="5" fill="#5e4fa2"><title>PUC · Red internacional de investigación: 79,7</title></circle>
+    </g>
+    <g id="uch" class="serie">
+        <polygon points="330.0,280.2 360.4,290.1 342.5,317.2 320.4,313.3 183.9,252.5" fill="#c97c9e" fill-opacity="0.25" stroke="#c97c9e" stroke-width="2.5" />
+        <circle cx="330.0" cy="280.2" r="5" fill="#c97c9e"><title>UCh · Relación docentes/estudiantes: 9,9</title></circle>
+        <circle cx="360.4" cy="290.1" r="5" fill="#c97c9e"><title>UCh · Citas por docente: 16,0</title></circle>
+        <circle cx="342.5" cy="317.2" r="5" fill="#c97c9e"><title>UCh · Docentes internacionales: 10,6</title></circle>
+        <circle cx="320.4" cy="313.3" r="5" fill="#c97c9e"><title>UCh · Estudiantes internacionales: 8,2</title></circle>
+        <circle cx="183.9" cy="252.5" r="5" fill="#c97c9e"><title>UCh · Red internacional de investigación: 76,8</title></circle>
+    </g>
+    <g id="udd" class="serie">
+        <polygon points="330.0,267.2 336.5,297.9 340.1,313.9 326.4,305.0 281.3,284.2" fill="#fdbe70" fill-opacity="0.25" stroke="#fdbe70" stroke-width="2.5" />
+        <circle cx="330.0" cy="267.2" r="5" fill="#fdbe70"><title>UDD · Relación docentes/estudiantes: 16,4</title></circle>
+        <circle cx="336.5" cy="297.9" r="5" fill="#fdbe70"><title>UDD · Citas por docente: 3,4</title></circle>
+        <circle cx="340.1" cy="313.9" r="5" fill="#fdbe70"><title>UDD · Docentes internacionales: 8,6</title></circle>
+        <circle cx="326.4" cy="305.0" r="5" fill="#fdbe70"><title>UDD · Estudiantes internacionales: 3,1</title></circle>
+        <circle cx="281.3" cy="284.2" r="5" fill="#fdbe70"><title>UDD · Red internacional de investigación: 25,6</title></circle>
+    </g>
+    <g class="leyenda" transform="translate(690 120)">
+        <text class="leyenda-titulo" x="0" y="0">Clic para mostrar u ocultar</text>
+        <g class="item" onclick="alternar('puc', this)" transform="translate(0 30)">
+            <rect width="18" height="18" fill="#5e4fa2" />
+            <text x="28" y="14">PUC</text>
+        </g>
+        <g class="item" onclick="alternar('uch', this)" transform="translate(0 64)">
+            <rect width="18" height="18" fill="#c97c9e" />
+            <text x="28" y="14">UCh</text>
+        </g>
+        <g class="item" onclick="alternar('udd', this)" transform="translate(0 98)">
+            <rect width="18" height="18" fill="#fdbe70" />
+            <text x="28" y="14">UDD</text>
+        </g>
+    </g>
+</svg>
 
-            <p>La comparación de las dimensiones <strong>[continuar texto]</strong></p>
+          <p>La comparación de las dimensiones muestra que la <abbr>PUC</abbr> lidera en tres de las cinco: relación docentes/estudiantes (38,3 puntos), proporción de docentes internacionales (38,9) y red internacional de investigación (79,7). La <abbr>UCH</abbr> se impone en citas por docente (16,0) y en proporción de estudiantes internacionales (8,2), aunque por márgenes estrechos frente a la <abbr>PUC</abbr>. La <abbr>UDD</abbr> queda última en cuatro de las cinco dimensiones y solo supera a la <abbr>UCH</abbr> en relación docentes/estudiantes (16,4 frente a 9,9). La mayor brecha está en la red internacional de investigación: la <abbr>PUC</abbr> y la <abbr>UCH</abbr> superan los 75 puntos y la <abbr>UDD</abbr> llega a 25,6. Al tratarse de indicadores medidos y no de encuestas de reputación, estas diferencias no dependen de la percepción de académicos ni de empleadores.</p>
 
             <hr>
 
