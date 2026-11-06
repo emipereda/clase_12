@@ -1,2 +1,342 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 880 580">
-   </svg>
+<svg xmlns="http://www.w3.org/2000/svg" width="880" height="580">
+    <rect width="880" height="580" x="0" y="0" fill="#fafafa" id="background" />
+    <g transform="translate(20,20)" id="viz">
+        <g id="nodes">
+            <g transform="translate(421,271)">
+                <path id="p_962" d="M0,270A270,270,0,1,1,0,-270A270,270,0,1,1,0,270Z" fill="none" stroke="#ccc" />
+                <text
+                    fill="black"
+                    text-anchor="middle"
+                    font-family="'Arial', sans-serif"
+                    font-size="8"
+                    dominant-baseline="middle"
+                >
+                    <textPath href="#p_962" startOffset="50%" />
+                </text>
+            </g>
+            <g transform="translate(297.5324190932104,239.70083572340255)" id="Europa">
+                <path
+                    id="p_674.6253265389803"
+                    d="M0,137.392A137.392,137.392,0,1,1,0,-137.392A137.392,137.392,0,1,1,0,137.392Z"
+                    fill="none"
+                    stroke="#ccc"
+                />
+                <text
+                    fill="black"
+                    text-anchor="middle"
+                    font-family="'Arial', sans-serif"
+                    font-size="8"
+                    dominant-baseline="middle"
+                >
+                    <textPath href="#p_674.6253265389803" startOffset="50%">Europa</textPath>
+                </text>
+            </g>
+            <g transform="translate(556.6759016406942,239.70083572340255)" id="América">
+                <path
+                    id="p_912.893220266397"
+                    d="M0,116.516A116.516,116.516,0,1,1,0,-116.516A116.516,116.516,0,1,1,0,116.516Z"
+                    fill="none"
+                    stroke="#ccc"
+                />
+                <text
+                    fill="black"
+                    text-anchor="middle"
+                    font-family="'Arial', sans-serif"
+                    font-size="8"
+                    dominant-baseline="middle"
+                >
+                    <textPath href="#p_912.893220266397" startOffset="50%">América</textPath>
+                </text>
+            </g>
+            <g transform="translate(445.88588499623853,432.9019814199374)" id="Asia">
+                <path
+                    id="p_979.7495232061692"
+                    d="M0,100.962A100.962,100.962,0,1,1,0,-100.962A100.962,100.962,0,1,1,0,100.962Z"
+                    fill="none"
+                    stroke="#ccc"
+                />
+                <text
+                    fill="black"
+                    text-anchor="middle"
+                    font-family="'Arial', sans-serif"
+                    font-size="8"
+                    dominant-baseline="middle"
+                >
+                    <textPath href="#p_979.7495232061692" startOffset="50%">Asia</textPath>
+                </text>
+            </g>
+            <g transform="translate(443.6522885484488,80.81362673208406)" id="Oceanía">
+                <path
+                    id="p_597.700355986948"
+                    d="M0,73.234A73.234,73.234,0,1,1,0,-73.234A73.234,73.234,0,1,1,0,73.234Z"
+                    fill="none"
+                    stroke="#ccc"
+                />
+                <text
+                    fill="black"
+                    text-anchor="middle"
+                    font-family="'Arial', sans-serif"
+                    font-size="8"
+                    dominant-baseline="middle"
+                >
+                    <textPath href="#p_597.700355986948" startOffset="50%">Oceanía</textPath>
+                </text>
+            </g>
+            <g transform="translate(252.3017486534855,236.72470485741493)" id="Reino Unido">
+                <path
+                    id="p_554.2758357007058"
+                    d="M0,65.249A65.249,65.249,0,1,1,0,-65.249A65.249,65.249,0,1,1,0,65.249Z"
+                    fill="#bee5a0"
+                    stroke="none"
+                />
+            </g>
+            <g transform="translate(360.5044017733094,236.72470485741493)" id="Alemania">
+                <path
+                    id="p_634.9474496379266"
+                    d="M0,37.718A37.718,37.718,0,1,1,0,-37.718A37.718,37.718,0,1,1,0,37.718Z"
+                    fill="#bee5a0"
+                    stroke="none"
+                />
+            </g>
+            <g transform="translate(329.8827572634052,309.0215666124544)" id="Suecia">
+                <path
+                    id="p_674.4655186965435"
+                    d="M0,35.561A35.561,35.561,0,1,1,0,-35.561A35.561,35.561,0,1,1,0,35.561Z"
+                    fill="#bee5a0"
+                    stroke="none"
+                />
+            </g>
+            <g transform="translate(329.6148869952625,165.68844782624137)" id="Francia">
+                <path
+                    id="p_529.8117443291194"
+                    d="M0,34.508A34.508,34.508,0,1,1,0,-34.508A34.508,34.508,0,1,1,0,34.508Z"
+                    fill="#bee5a0"
+                    stroke="none"
+                />
+            </g>
+            <g transform="translate(268.46230953863665,141.63362446241064)" id="Suiza">
+                <path
+                    id="p_436.0661587678799"
+                    d="M0,25.97A25.97,25.97,0,1,1,0,-25.97A25.97,25.97,0,1,1,0,25.97Z"
+                    fill="#bee5a0"
+                    stroke="none"
+                />
+            </g>
+            <g transform="translate(268.6087803920124,329.6441275281713)" id="Países Bajos">
+                <path
+                    id="p_622.1080826142326"
+                    d="M0,23.855A23.855,23.855,0,1,1,0,-23.855A23.855,23.855,0,1,1,0,23.855Z"
+                    fill="#bee5a0"
+                    stroke="none"
+                />
+            </g>
+            <g transform="translate(389.68913529595034,178.9473746857355)" id="Dinamarca">
+                <path
+                    id="p_590.4132054702807"
+                    d="M0,21.777A21.777,21.777,0,1,1,0,-21.777A21.777,21.777,0,1,1,0,21.777Z"
+                    fill="#bee5a0"
+                    stroke="none"
+                />
+            </g>
+            <g transform="translate(390.20512071344774,293.8262352283364)" id="Italia">
+                <path
+                    id="p_705.4420304801904"
+                    d="M0,21.411A21.411,21.411,0,1,1,0,-21.411A21.411,21.411,0,1,1,0,21.411Z"
+                    fill="#bee5a0"
+                    stroke="none"
+                />
+            </g>
+            <g transform="translate(220.363158658129,321.2558276152886)" id="Irlanda">
+                <path
+                    id="p_561.4982985184582"
+                    d="M0,19.879A19.879,19.879,0,1,1,0,-19.879A19.879,19.879,0,1,1,0,19.879Z"
+                    fill="#bee5a0"
+                    stroke="none"
+                />
+            </g>
+            <g transform="translate(221.28280589562607,154.24880163262247)" id="Bélgica">
+                <path
+                    id="p_393.1634107125757"
+                    d="M0,17.632A17.632,17.632,0,1,1,0,-17.632A17.632,17.632,0,1,1,0,17.632Z"
+                    fill="#bee5a0"
+                    stroke="none"
+                />
+            </g>
+            <g transform="translate(521.3530920951827,239.70083572340255)" id="Estados Unidos">
+                <path
+                    id="p_837.0126732525576"
+                    d="M0,75.959A75.959,75.959,0,1,1,0,-75.959A75.959,75.959,0,1,1,0,75.959Z"
+                    fill="#c97c9e"
+                    stroke="none"
+                />
+            </g>
+            <g transform="translate(635.2521110360748,239.70083572340255)" id="Canadá">
+                <path
+                    id="p_907.6582923435807"
+                    d="M0,32.705A32.705,32.705,0,1,1,0,-32.705A32.705,32.705,0,1,1,0,32.705Z"
+                    fill="#c97c9e"
+                    stroke="none"
+                />
+            </g>
+            <g transform="translate(608.9126241405529,292.4711112515552)" id="Argentina">
+                <path
+                    id="p_922.4220219662595"
+                    d="M0,21.038A21.038,21.038,0,1,1,0,-21.038A21.038,21.038,0,1,1,0,21.038Z"
+                    fill="#c97c9e"
+                    stroke="none"
+                />
+            </g>
+            <g transform="translate(408.10179755176046,433.18680324877624)" id="Japón">
+                <path
+                    id="p_880.7145112865894"
+                    d="M0,39.426A39.426,39.426,0,1,1,0,-39.426A39.426,39.426,0,1,1,0,39.426Z"
+                    fill="#fdbe70"
+                    stroke="none"
+                />
+            </g>
+            <g transform="translate(487.2710454682449,433.18680324877624)" id="China">
+                <path
+                    id="p_954.9662582246366"
+                    d="M0,34.508A34.508,34.508,0,1,1,0,-34.508A34.508,34.508,0,1,1,0,34.508Z"
+                    fill="#fdbe70"
+                    stroke="none"
+                />
+            </g>
+            <g transform="translate(452.3089584605005,496.08467850504974)" id="Corea del Sur">
+                <path
+                    id="p_980.6120271386916"
+                    d="M0,32.218A32.218,32.218,0,1,1,0,-32.218A32.218,32.218,0,1,1,0,32.218Z"
+                    fill="#fdbe70"
+                    stroke="none"
+                />
+            </g>
+            <g transform="translate(452.13366768402443,373.64140940124634)" id="Hong Kong">
+                <path
+                    id="p_855.1713755087289"
+                    d="M0,29.396A29.396,29.396,0,1,1,0,-29.396A29.396,29.396,0,1,1,0,29.396Z"
+                    fill="#fdbe70"
+                    stroke="none"
+                />
+            </g>
+            <g transform="translate(399.3529723096222,370.91787850696755)" id="Arabia Saudita">
+                <path
+                    id="p_788.490541441902"
+                    d="M0,18.22A18.22,18.22,0,1,1,0,-18.22A18.22,18.22,0,1,1,0,18.22Z"
+                    fill="#fdbe70"
+                    stroke="none"
+                />
+            </g>
+            <g transform="translate(397.7123494629776,494.14632135284177)" id="Malasia">
+                <path
+                    id="p_909.0363598721917"
+                    d="M0,17.178A17.178,17.178,0,1,1,0,-17.178A17.178,17.178,0,1,1,0,17.178Z"
+                    fill="#fdbe70"
+                    stroke="none"
+                />
+            </g>
+            <g transform="translate(503.362790521198,378.910501734334)" id="Taiwán">
+                <path
+                    id="p_899.1414480480836"
+                    d="M0,16.868A16.868,16.868,0,1,1,0,-16.868A16.868,16.868,0,1,1,0,16.868Z"
+                    fill="#fdbe70"
+                    stroke="none"
+                />
+            </g>
+            <g transform="translate(498.5525351616854,482.4208412567092)" id="Singapur">
+                <path
+                    id="p_991.7400628274919"
+                    d="M0,10.767A10.767,10.767,0,1,1,0,-10.767A10.767,10.767,0,1,1,0,10.767Z"
+                    fill="#fdbe70"
+                    stroke="none"
+                />
+            </g>
+            <g transform="translate(422.24563169768703,80.81362673208406)" id="Australia">
+                <path
+                    id="p_549.6521143626084"
+                    d="M0,46.593A46.593,46.593,0,1,1,0,-46.593A46.593,46.593,0,1,1,0,46.593Z"
+                    fill="#5e4fa2"
+                    stroke="none"
+                />
+            </g>
+            <g transform="translate(492.8626084426942,80.81362673208406)" id="Nueva Zelanda">
+                <path
+                    id="p_592.4654280641319"
+                    d="M0,18.789A18.789,18.789,0,1,1,0,-18.789A18.789,18.789,0,1,1,0,18.789Z"
+                    fill="#5e4fa2"
+                    stroke="none"
+                />
+            </g>
+        </g>
+        <g id="labels">
+            <g transform="translate(252.3017486534855,236.72470485741493)">
+                <text text-anchor="middle" dominant-baseline="text-before-edge" transform="translate(0,0)" />
+            </g>
+            <g transform="translate(360.5044017733094,236.72470485741493)">
+                <text text-anchor="middle" dominant-baseline="text-before-edge" transform="translate(0,0)" />
+            </g>
+            <g transform="translate(329.8827572634052,309.0215666124544)">
+                <text text-anchor="middle" dominant-baseline="text-before-edge" transform="translate(0,0)" />
+            </g>
+            <g transform="translate(329.6148869952625,165.68844782624137)">
+                <text text-anchor="middle" dominant-baseline="text-before-edge" transform="translate(0,0)" />
+            </g>
+            <g transform="translate(268.46230953863665,141.63362446241064)">
+                <text text-anchor="middle" dominant-baseline="text-before-edge" transform="translate(0,0)" />
+            </g>
+            <g transform="translate(268.6087803920124,329.6441275281713)">
+                <text text-anchor="middle" dominant-baseline="text-before-edge" transform="translate(0,0)" />
+            </g>
+            <g transform="translate(389.68913529595034,178.9473746857355)">
+                <text text-anchor="middle" dominant-baseline="text-before-edge" transform="translate(0,0)" />
+            </g>
+            <g transform="translate(390.20512071344774,293.8262352283364)">
+                <text text-anchor="middle" dominant-baseline="text-before-edge" transform="translate(0,0)" />
+            </g>
+            <g transform="translate(220.363158658129,321.2558276152886)">
+                <text text-anchor="middle" dominant-baseline="text-before-edge" transform="translate(0,0)" />
+            </g>
+            <g transform="translate(221.28280589562607,154.24880163262247)">
+                <text text-anchor="middle" dominant-baseline="text-before-edge" transform="translate(0,0)" />
+            </g>
+            <g transform="translate(521.3530920951827,239.70083572340255)">
+                <text text-anchor="middle" dominant-baseline="text-before-edge" transform="translate(0,0)" />
+            </g>
+            <g transform="translate(635.2521110360748,239.70083572340255)">
+                <text text-anchor="middle" dominant-baseline="text-before-edge" transform="translate(0,0)" />
+            </g>
+            <g transform="translate(608.9126241405529,292.4711112515552)">
+                <text text-anchor="middle" dominant-baseline="text-before-edge" transform="translate(0,0)" />
+            </g>
+            <g transform="translate(408.10179755176046,433.18680324877624)">
+                <text text-anchor="middle" dominant-baseline="text-before-edge" transform="translate(0,0)" />
+            </g>
+            <g transform="translate(487.2710454682449,433.18680324877624)">
+                <text text-anchor="middle" dominant-baseline="text-before-edge" transform="translate(0,0)" />
+            </g>
+            <g transform="translate(452.3089584605005,496.08467850504974)">
+                <text text-anchor="middle" dominant-baseline="text-before-edge" transform="translate(0,0)" />
+            </g>
+            <g transform="translate(452.13366768402443,373.64140940124634)">
+                <text text-anchor="middle" dominant-baseline="text-before-edge" transform="translate(0,0)" />
+            </g>
+            <g transform="translate(399.3529723096222,370.91787850696755)">
+                <text text-anchor="middle" dominant-baseline="text-before-edge" transform="translate(0,0)" />
+            </g>
+            <g transform="translate(397.7123494629776,494.14632135284177)">
+                <text text-anchor="middle" dominant-baseline="text-before-edge" transform="translate(0,0)" />
+            </g>
+            <g transform="translate(503.362790521198,378.910501734334)">
+                <text text-anchor="middle" dominant-baseline="text-before-edge" transform="translate(0,0)" />
+            </g>
+            <g transform="translate(498.5525351616854,482.4208412567092)">
+                <text text-anchor="middle" dominant-baseline="text-before-edge" transform="translate(0,0)" />
+            </g>
+            <g transform="translate(422.24563169768703,80.81362673208406)">
+                <text text-anchor="middle" dominant-baseline="text-before-edge" transform="translate(0,0)" />
+            </g>
+            <g transform="translate(492.8626084426942,80.81362673208406)">
+                <text text-anchor="middle" dominant-baseline="text-before-edge" transform="translate(0,0)" />
+            </g>
+        </g>
+    </g>
+</svg>
