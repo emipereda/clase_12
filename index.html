@@ -315,7 +315,7 @@
 
             <h4>América, Europa y otros continentes</h4>
 
-            <p>El siguiente gráfico muestra cómo se distribuyen, por continente y país, las 100 mejores universidades del mundo. <strong>[continuar texto]</strong></p>
+            <p><p>El siguiente gráfico muestra cómo se distribuyen, por continente y país, las 100 mejores universidades del mundo. Europa reúne 36 de ellas, seguida por América con 30, Asia con 24 y Oceanía con 10. Por país, el predominio es angloparlante: Estados Unidos aporta 25 instituciones y el Reino Unido 16, y entre ambos suman 41 de las 100. Les siguen Australia (9), China (6) y Hong Kong (5). América Latina tiene un solo representante, la <abbr title="Universidad de Buenos Aires">UBA</abbr>.</p></p>
 
             <object data="viz.svg" type="image/svg+xml">Tu navegador no soporta SVG</object>
 
@@ -324,7 +324,7 @@
 
             <h4>Chile en América</h4>
 
-            <p>El continente americano reúne 322 de las 1.504 instituciones consideradas en el ranking. Su distribución por país es la siguiente:</p>
+            <p><p>El continente americano reúne 332 de las 1.504 instituciones consideradas en el ranking. Su distribución por país es la siguiente:</p></p>
 
             <canvas id="identidad"></canvas>
 
@@ -578,66 +578,63 @@
         </script>
 
         <!-- Lo necesario para el gráfico en el canvas -->
-        <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
-        <script>
-            new Chart(document.getElementById("identidad"), {
-                type: "bar",
-                data: {
-                    labels: [
-                        "Argentina",
-                        "Australia",
-                        "Austria",
-                        "Belgium",
-                        "Brazil",
-                        "Canada",
-                        "Chile",
-                        "China (Mainland)",
-                        "Colombia",
-                        "Czech Republic",
-                        "Denmark",
-                        "Estonia",
-                        "Finland",
-                        "France",
-                        "Germany",
-                        "Hong Kong",
-                        "India",
-                        "Ireland",
-                        "Italy",
-                        "Japan",
-                        "Malaysia",
-                        "Mexico",
-                        "Netherlands",
-                        "Saudi Arabia",
-                        "Singapore",
-                        "South Korea",
-                        "Sweden",
-                        "Switzerland",
-                        "Taiwan",
-                        "Thailand",
-                        "United Kingdom",
-                        "United States",
-                        "Vietnam",
-                    ],
-                    datasets: [
-                        {
-                            label: "Veces en el top 100",
-                            data: [
-                                2, 5, 2, 1, 1, 2, 1, 6, 1, 1, 1, 1, 1, 3, 2, 2, 1, 1, 6, 2, 2, 2, 4, 1, 3, 3, 3, 2, 1,
-                                1, 11, 24, 1,
-                            ],
-                            backgroundColor: "rgb(214, 214, 214)",
-                            borderWidth: 1,
-                        },
-                    ],
+       <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+<script>
+    const conteo = {
+        "Estados Unidos": 184,
+        "Canadá": 30,
+        "Brasil": 22,
+        "México": 18,
+        "Chile": 17,
+        "Argentina": 16,
+        "Colombia": 12,
+        "Ecuador": 6,
+        "Perú": 6,
+        "Uruguay": 4,
+        "Venezuela": 4,
+        "Costa Rica": 3,
+        "Cuba": 2,
+        "República Dominicana": 2,
+        "Guatemala": 2,
+        "Honduras": 1,
+        "Panamá": 1,
+        "Paraguay": 1,
+        "Puerto Rico": 1,
+    };
+
+    const ordenado = Object.entries(conteo).sort((a, b) => b[1] - a[1]);
+    const total = ordenado.reduce((suma, [, n]) => suma + n, 0);
+
+    new Chart(document.getElementById("identidad"), {
+        type: "bar",
+        data: {
+            labels: ordenado.map(([pais]) => pais),
+            datasets: [
+                {
+                    label: "Instituciones en el ranking",
+                    data: ordenado.map(([, n]) => n),
+                    backgroundColor: ordenado.map(([pais]) =>
+                        pais === "Chile" ? "#c97c9e" : "rgb(214, 214, 214)"
+                    ),
+                    borderWidth: 1,
                 },
-                options: {
-                    indexAxis: "y",
-                    responsive: true,
-                    maintainAspectRatio: true,
-                    aspectRatio: 1,
+            ],
+        },
+        options: {
+            indexAxis: "y",
+            responsive: true,
+            maintainAspectRatio: true,
+            aspectRatio: 1,
+            plugins: {
+                legend: { display: false },
+                title: {
+                    display: true,
+                    text: "Instituciones americanas en el QS World University Rankings (n = " + total + ")",
                 },
-            });
-        </script>
+            },
+        },
+    });
+</script>
 
         <!-- Lo necesario para rellenar las tablas con su propio JSON publicado en myJSON (el mismo que pudo usar para la evaluación pasada) -->
         <script>
